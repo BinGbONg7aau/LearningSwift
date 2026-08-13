@@ -25,7 +25,7 @@ struct ReceiptItemCard: View {
             } label: {
                 HStack {
                     HStack{
-                        Text("\(item.itemName)")
+                        Text(item.itemName)
                             .padding()
                         Spacer()
                         Text(item.itemPrice, format: .currency(code: "DKK"))
